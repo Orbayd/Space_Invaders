@@ -1,0 +1,60 @@
+Youtube link :http://www.youtube.com/watch?v=HVXoAKbqBTc&feature=youtu.be
+
+Cycle
+
++Game has cycle to Main menu to Gamplay
+
+Score System
++Score showing
++Life of Ship showing
++Highscore showing
+-Some times it when u die it show you lose2 life not one
+-score reseted when u  clear level
+
+Level System
++There is 3 lvl that increase speed of Allends
+ 
+
+Collision
+
++Missle vs Shiled (working)
++Missle vs Allien(working)
++Missle vs Ufo ( working)
++Missle vs Bomb (working)
++Bomb vs  Ship (working)
++Bomb vs Shield (working)
++Super vs Shield (working)
++Super vs Ship (working)
++Allien vs Wall(workng)
++Missle vs Wall(working)
+
+Allien Grid
+
++Ýt moves accordingly
++it change its direction and go lover base 
++it  animates
+-alliend move sound has some problems
++allien dead  sound is okay
+-Some times when allien supposed to die it does not it live contiune as explosion image
++when allien dies its speed up
+-when allien dies it frame rate of animation is still same
+
+Shields
+
++Shield are working correctly
++there are 3*3 group each group has 2 collision object 
++one collision object has 1 life other has 2
+-when super hit to shield it deletes ite collision object but collision object still contiune to draw even it does not effect any collision
+
+UFO
++UFO working
+-Usually not spawn according to given time
+-Some times it stuck on the wall and it prevent you going on next lvl even if you clear all of alliens
+
+Bombs
++Bombs working accrodingly (its spammemd random column)
+-Sometimes  it appears upperleft corner its should not be
+
+Ship
+Moves accordingly
+-it can go more than walll distance(

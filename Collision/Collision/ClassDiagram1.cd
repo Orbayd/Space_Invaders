@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Collision.CollisionGroup">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <Members>
+      <Field Name="ColList" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAACAABAAAAAACAAAAAAAI=</HashCode>
+      <FileName>Collision\CollisionGroup.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ColList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Collision.CollisionGroupMan" Collapsed="true">
+    <Position X="10.5" Y="6" Width="1.5" />
+    <Members>
+      <Field Name="AllienGroup" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAgIQBgAAAAQAAACAJAAAA=</HashCode>
+      <FileName>Collision\CollisionGroupMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="AllienGroup" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Collision.CollisionObject" Collapsed="true">
+    <Position X="20" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQACAAAAIBAAgQIQEqAAAAAABBCAkAAAAAABgAAAAA=</HashCode>
+      <FileName>Collision\CollisionObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Collision.CollisionPair">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAIAAAAABAAgAAAAAAAQQQKBAAAAAAIAABAAAAI=</HashCode>
+      <FileName>Collision\CollisionPair.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ColA" />
+      <Field Name="ColB" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Collision.CollisionPairMan">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAIAAEAAABAAAAAQAAAAQAAAAA=</HashCode>
+      <FileName>Collision\CollisionPairMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Group" Collapsed="true">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQAAAAAAABAAAAAAAAAAAAAABAAAQAAAAAAAggAI=</HashCode>
+      <FileName>Collision\Group.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.GroupManager" Collapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQCAAAAAAAAAAAABgBAAAAABAAAAAQAAAAAAgAAA=</HashCode>
+      <FileName>Collision\GroupManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Node" Collapsed="true">
+    <Position X="24.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAABQAAIAAQA=</HashCode>
+      <FileName>DataStructures\LinkList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.LinkList" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAUAAAABAQAAAAAAAAAAAAAAAAgAwA=</HashCode>
+      <FileName>DataStructures\LinkList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.DrawManager" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAAAAAQAAAgAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Draw\DrawManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Explosion" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAIAAAAAAAAAAQAAAAAJgAABAAAI=</HashCode>
+      <FileName>Explosion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Particle" Collapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAgQAQAgACAAAAAAAAgCAIABgAAAAAAA=</HashCode>
+      <FileName>Explosion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Game1" Collapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEEAAAAAAAwAAAAAAEAAAAAgAAAgAAAAAAAAAAAQ=</HashCode>
+      <FileName>Game\Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Program" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Game\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Allien" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAEAAAIAQAAAAAEAAAAAAAACAACAAAAAA=</HashCode>
+      <FileName>GameObject\Allien.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Column" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAAAAAEAAAAAAAAAAAEAAAAAAQQAAAAABAAAA=</HashCode>
+      <FileName>GameObject\Column.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.GameObject" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAACAAIAAEAgAIAAAAIAAEBAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.GameObjectMan" Collapsed="true">
+    <Position X="13" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAIAAAAAAEBABAAEBBAAAQAQAQAAACEAAA=</HashCode>
+      <FileName>GameObject\GameObjectMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Missle" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IMQAAAAEAIAAAAgAAAQAAIAAEABABAAAQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Missle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Super" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAIABEAAAAAAAAAAAEABAAAAQQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Super.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Wall" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIQAAAAAAAAAEAgAIAAAAAgAEABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Image" Collapsed="true">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAE=</HashCode>
+      <FileName>Image\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Shield" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAIAAQAAAAABAAggAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shield\Shield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.FactorySprite" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Sprite\FlySprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.GameSprite" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAADAAABAgCAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\FlySprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.FlySprite" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAABAAAQAgAAAjAAgAgAAAAAA=</HashCode>
+      <FileName>Sprite\FlySprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Master" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAIAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Sprite" Collapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAaAAAgAEAAAAIBAAABEBAgAAIAgAA0AAAAA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.SpriteManager" Collapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAqAAAAgAQAABAAASACABAAAAAQAAAAQAAgAA=</HashCode>
+      <FileName>Sprite\SpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collision.Texture" Collapsed="true">
+    <Position X="24.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAABAAABAAgAAQAAAAEAAAoA=</HashCode>
+      <FileName>Texture\Texture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Collision.ColType" Collapsed="true">
+    <Position X="14.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEIAAAAAABAAAAAAAAAAIQAIAAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionGroup.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Collision.PairType" Collapsed="true">
+    <Position X="18.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionPair.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Collision.GameObjectType" Collapsed="true">
+    <Position X="16.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGABAAAIAAAAAABAAAAAAAAAAIQAIAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Collision.Type" Collapsed="true">
+    <Position X="21.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Sprite\FlySprite.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Collision.SpriteType" Collapsed="true">
+    <Position X="20" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAIQAIAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="8.83" />
+</ClassDiagram>
